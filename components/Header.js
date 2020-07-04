@@ -7,10 +7,10 @@ const Header = () => {
                 <h1 className="title2">Phuket</h1>
             </div>
             <p className="nameTitle">Bar & Restaurant</p>
-            { style()}
+            {style()}
         </div>
 
-    
+
     )
 }
 

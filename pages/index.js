@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
+import Aside from '../components/Aside'
 
 export default () => {
   return (
@@ -9,42 +10,14 @@ export default () => {
 
       <Menu />
 
-
-      <aside>
-        <div>
-          <div className="detail">
-            ร้านอาหารและเครื่องดื่ม พร้อมดนตรีสด <br />
-              เวลาเปิด : 17:00 - 00:00 น. <br />
-                (ปิดทุกวันสำคัญทางศาสนา และวันหยุดนักขัตฤกษ์)
-            </div>
-        </div>
-        <div>
-          <div className="login">
-            <form action="/action_page.php">
-              <h3>Member Login</h3>
-              <label for="id">ID:</label><br />
-              <input type="text" id="id" name="id" placeholder="Your ID" /><br />
-              <label for="lname">Password:</label><br />
-              <input type="text" id="pass" name="pass" placeholder="Your password" /><br /><br />
-              <input type="submit" value="Submit" />
-            </form>
-          </div>
-        </div>
-
-        <div className="facebook ">
-          <ul>
-            <li><a href="https://web.facebook.com/PluemPhuket/?ref=page_internal" target="_blank"><i
-              className="fa fa-facebook"></i></a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+      <Aside />
 
 
       <footer>
-        <marquee>
+        <marquee direction ="right">
           <font size="4" color="red">ช่วงนี้ร้านมีโปรโมชั่นพิเศษ ลด 20% ทั้งอาหารและเครื่องดื่ม!!! </font>
         </marquee>
+
         <div className="menu-page">
           <input type="button"
             onclick="window.location.href='https://web.facebook.com/PluemPhuket/?ref=page_internal'" value="Page 1" />
@@ -54,6 +27,7 @@ export default () => {
             onclick="window.location.href='https://web.facebook.com/PluemPhuket/?ref=page_internal'" value="Page 3" />
         </div>
       </footer>
+      
       <style jxs>{`
   body {
     margin: 0;

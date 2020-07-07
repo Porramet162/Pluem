@@ -7,7 +7,7 @@ const Footer = () => {
 
             <div className="menu-page">
                 <input type="button"
-                    onclick="window.location.href='https://web.facebook.com/PluemPhuket/?ref=page_internal'" value="Page 1" />
+                    onclick="http://localhost:3000/page'" value="Page 1" />
                 <input type="button"
                     onclick="window.location.href='https://web.facebook.com/PluemPhuket/?ref=page_internal'" value="Page 2" />
                 <input type="button"

@@ -1,17 +1,17 @@
 const Footer = () => {
+    
     return (
+        
         <div>
+            
             <marquee direction="right">
                 <font size="4" color="red">ช่วงนี้ร้านมีโปรโมชั่นพิเศษ ลด 20% ทั้งอาหารและเครื่องดื่ม!!! </font>
             </marquee>
 
             <div className="menu-page">
-                <input type="button"
-                    onclick="http://localhost:3000/page'" value="Page 1" />
-                <input type="button"
-                    onclick="window.location.href='https://web.facebook.com/PluemPhuket/?ref=page_internal'" value="Page 2" />
-                <input type="button"
-                    onclick="window.location.href='https://web.facebook.com/PluemPhuket/?ref=page_internal'" value="Page 3" />
+            <a href="http://www.google.com"><input type="button" value="Page 1"></input></a>
+            <a href="http://www.google.com"><input type="button" value="Page 2"></input></a>
+            <a href="http://www.google.com"><input type="button" value="Page 3"></input></a>  
             </div>
         </div>
     )
@@ -21,6 +21,8 @@ export default Footer
 const style = () => {
     return (
         <style jsx>{`
+        
+
             .menu - page {
                 display: block;
             align-items: flex-end;

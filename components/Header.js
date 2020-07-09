@@ -7,18 +7,9 @@ const Header = () => {
                 <h1 className="title2">Phuket</h1>
             </div>
             <p className="nameTitle">Bar & Restaurant</p>
-            {style()}
-        </div>
 
-
-    )
-}
-
-export default Header
-
-const style = () => {
-    return (
-        <style jsx>{`
+            <style jsx>{`
+        
         .block-title {
             border-radius: 10px;
             border-style: dashed;
@@ -48,5 +39,16 @@ const style = () => {
             display: block;
         }
         `}</style>
+        </div>
+
+
     )
 }
+
+export default Header
+
+// const style = () => {
+//     return (
+      
+//     )
+// }

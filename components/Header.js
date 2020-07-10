@@ -47,8 +47,3 @@ const Header = () => {
 
 export default Header
 
-// const style = () => {
-//     return (
-      
-//     )
-// }

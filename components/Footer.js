@@ -10,7 +10,7 @@ const Footer = () => {
             </marquee>
 
             <div className="menu-page">
-                <Link  href="/about">
+                <Link  href="/index2">
                     <a><button>Page 0</button></a>
                 </Link>
                 <Link  href="/about">

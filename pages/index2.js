@@ -1,21 +1,26 @@
 import React, { Component } from 'react'
-import Header from '../components/Header'
-import Menu from '../components/Menu'
+import Header from '../components2/Header'
+import Menu from '../components2/Menu'
 import Aside from '../components/Aside'
-import Footer from '../components/Footer'
+import Footer from '../components2/Footer'
 
 export default () => {
-      return (
+  return (
 
-        <div className="container">
+    <div className="container">
+      <title>รายการอาหาร</title>
 
-         
+      <Header />
 
-            <style jsx global>{`
+      <Menu />
+      
+      <Footer />
+
+      <style jsx global>{`
   body {
     margin: 0;
   }
   `}</style>
-        </div>
-    )
+    </div>
+  )
 }

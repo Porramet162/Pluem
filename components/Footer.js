@@ -11,19 +11,18 @@ const Footer = () => {
 
             <div className="menu-page">
                 <Link  href="/index2">
-                    <a><button>Page 0</button></a>
+                    <a><button>Page 1</button></a>
                 </Link>
                 <Link  href="/about">
-                    <a><button>Page 0</button></a>
+                    <a><button>Page 2</button></a>
                 </Link>
                 <Link  href="/about">
-                    <a><button>Page 0</button></a>
+                    <a><button>Page 3</button></a>
                 </Link>
                 
 
-                <a href="https://web.facebook.com/PluemPhuket/?ref=page_internal"><input type="button" value="Page 1"></input></a>
-                <a href="http://www.google.com"><input type="button" value="Page 2"></input></a>
-                <a href="http://www.google.com"><input type="button" value="Page 3"></input></a>
+                <a href="https://web.facebook.com/PluemPhuket/?ref=page_internal"><input type="button" value="Page .."></input></a>
+                
             </div>
         </div>
     )

@@ -13,7 +13,7 @@ export default () => {
       <Header />
 
       <Menu />
-      
+
       <Footer />
 
       <style jsx global>{`

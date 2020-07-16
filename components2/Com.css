@@ -1,0 +1,33 @@
+/* -----------------------------------------------------------Footer */
+.section {
+    height: 70%;
+    width: 100%;
+    display: block;
+    background-color: gold;
+    
+}
+.box {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.15);
+    overflow: hidden;
+    cursor: pointer;
+    align-items: center;
+    transition: all .4s;
+    transform: scale(1);
+    background-color: rgb(245, 185, 19);
+}
+.box:hover {
+    transform: scale(1.1);
+ }
+.photo {
+    display: inline;
+    
+}
+/* -------------------------------------------------------------------------- */
+
+

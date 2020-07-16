@@ -8,7 +8,7 @@ export default () => {
   return (
 
     <div className="container">
-      <title>รายการอาหาร</title>
+      <title>รายการอาหารแนะนำ</title>
 
       <Header />
 

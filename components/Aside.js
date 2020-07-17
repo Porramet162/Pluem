@@ -8,13 +8,11 @@ const Aside = () => {
                 (ปิดทุกวันสำคัญทางศาสนา และวันหยุดนักขัตฤกษ์)
             </div>
 
-            <div className="login">
+            <div className="login-form">
+                <h3>Member Login</h3>
                 <form action="/action_page.php">
-                    <h3>Member Login</h3>
-                    <label htmlFor="id">ID:</label><br />
-                    <input type="text" id="id" name="id" placeholder="Your ID" /><br />
-                    <label htmlFor="lname">Password:</label><br />
-                    <input type="text" id="pass" name="pass" placeholder="Your password" /><br /><br />
+                    <input type="text" id="id" name="username" placeholder="Username" required />
+                    <input type="text" id="pass" name="password" placeholder="Password" required /><br />
                     <input type="submit" value="Submit" />
                 </form>
             </div>
@@ -22,14 +20,14 @@ const Aside = () => {
                 <div className="facebook ">
                     <ul>
                         <li><a href="https://web.facebook.com/PluemPhuket/?ref=page_internal" target="_blank">
-                        <i className="fa fa-facebook"></i></a>
+                            <fa className="fa fa-facebook"></fa></a>
                         </li>
                     </ul>
                 </div>
             </div>
 
-           
-        <style jsx>{`
+
+            <style jsx>{`
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         
@@ -48,9 +46,10 @@ const Aside = () => {
             /* margin-top: 40px; */
         }
         
+        
 
-        .login {
-            display: inline-flex;
+        .login-form {
+            display: inline-block;
             justify-content: center;
             width: 300px;
             padding: 25px;
@@ -58,6 +57,35 @@ const Aside = () => {
             margin-top: 20px;
             margin-bottom: 20px;
         }
+
+        .login-form h3{
+            margin: 10px 0;
+            text-align: center;
+            color: black;
+            font-style: inherit;
+            font-size: 20px;
+            padding: 5px 0 5px 0;
+        }
+        
+        .login-form input[type="password"],
+        .login-form input[type="text"]{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        .login-form input[type="submet"]{
+            width: 100%;
+            padding: 15px;
+            background-color: #535b63;
+            border: 0;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-weight: bold;
+            color: #fff;
+        }
+
         
         .facebook {
             display: inline-flex;

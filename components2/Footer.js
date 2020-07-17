@@ -7,8 +7,8 @@ const Footer = () => {
 
 
             <div className="menu-page">
-                <Link href="/index2">
-                    <a><button>Page 1</button></a>
+                <Link href="/index">
+                    <a><button>Home</button></a>
                 </Link>
                 <Link href="/about">
                     <a><button>Page 2</button></a>

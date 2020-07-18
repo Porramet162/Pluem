@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
 
             <marquee direction="left">
-                <font size="4" color="red">ช่วงนี้ร้านมีโปรโมชั่นพิเศษ ลด 20% ทั้งอาหารและเครื่องดื่ม!!! </font>
+                <font size="4" color="red">มาก่อน 21:00 น. โปรโมชั่น 199.- !!! </font>
             </marquee>
 
             <div className="menu-page">

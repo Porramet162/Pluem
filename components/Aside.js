@@ -46,7 +46,6 @@ const Aside = () => {
             /* margin-top: 40px; */
         }
         
-        
 
         .login-form {
             display: inline-block;

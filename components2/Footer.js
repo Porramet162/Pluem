@@ -7,18 +7,12 @@ const Footer = () => {
 
 
             <div className="menu-page">
-                <Link href="/index">
-                    <a><button>Home</button></a>
-                </Link>
-                <Link href="/about">
-                    <a><button>Page 2</button></a>
-                </Link>
-                <Link href="/about">
-                    <a><button>Page 3</button></a>
-                </Link>
-
-
-                <a href="https://web.facebook.com/PluemPhuket/?ref=page_internal"><input type="button" value="Page.."></input></a>
+                <div className="botton-box">
+                <a className="button" href="/index">
+                    Home
+                </a>
+               
+            </div>
             </div>
             <style jsx>{`
         
@@ -28,6 +22,10 @@ const Footer = () => {
         justify-content: center;
         background-color: rgb(245, 185, 19);
     }
+
+        .button{
+            border-radius: 8px;
+        }
 
     
     `}</style>

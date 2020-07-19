@@ -1,22 +1,25 @@
 const Aside = () => {
     return (
 
-        <div>
+        <div className="box">
             <div className="detail">
                 ร้านอาหารและเครื่องดื่ม พร้อมดนตรีสด <br />
-                เวลาเปิด : 17:00 - 00:00 น. <br />
-                (ปิดทุกวันสำคัญทางศาสนา และวันหยุดนักขัตฤกษ์)
+                เวลาเปิด : 18:00 - 00:00 น. <br />
+                (เปิดทุกวัน ยกเว้นวันสำคัญทางศาสนาและวันหยุดนักขัตฤกษ์)
             </div>
 
-            <div className="login-form">
+            {/* <div className="login-form">
                 <h3>Member Login</h3>
                 <form action="/action_page.php">
                     <input type="text" id="id" name="username" placeholder="Username" required />
                     <input type="text" id="pass" name="password" placeholder="Password" required /><br />
                     <input type="submit" value="Submit" />
                 </form>
-            </div>
+            </div> */}
+
+
             <div>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                 <div className="facebook ">
                     <ul>
                         <li><a href="https://web.facebook.com/PluemPhuket/?ref=page_internal" target="_blank">
@@ -26,12 +29,23 @@ const Aside = () => {
                 </div>
             </div>
 
+            <div className="botton-box">
+                <a className="button" href="/login">
+                    Login
+                </a>
+                <a className="button" href="/index2">
+                    เมนูแนะนำ
+                </a>
+                <a className="button" href="/index3">
+                    บรรยากาศร้าน
+                </a>
+            </div>
+
 
             <style jsx>{`
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         
-        div {
+        
+        .box {
             display: block;
         }
 
@@ -43,7 +57,7 @@ const Aside = () => {
             border-color: rgb(254, 255, 255);
             border-style: solid;
             border-radius: 12px;
-            /* margin-top: 40px; */
+            margin-top: 40px; 
         }
         
 
@@ -89,7 +103,7 @@ const Aside = () => {
         .facebook {
             display: inline-flex;
             margin-bottom: 25px;
-            margin-top: 10px;
+            margin-top: 55px;
             background-color: rgb(77, 137, 247);
             border-radius: 30px;
         }
@@ -137,6 +151,24 @@ const Aside = () => {
             background-color: #3b5999;
         }
           
+        .button{
+            width: 100px;
+            display: inline-block;
+            border: 2px solid #fff;
+            border-radius: 20px;
+            padding: 10px 40px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.8s;
+            margin-left: 10px;
+            margin-top: 50px;
+        }
+        
+        .button:hover{
+            background-color: #fff;
+            color: #000000;
+        
+        }
 
         `}</style>
 

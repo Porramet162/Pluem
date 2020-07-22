@@ -3,7 +3,7 @@ const Header = () => {
         <div>
             
             <div className="block-title">
-                <h1 className="title1">รายการอาหาร</h1>
+                <h1 className="title1">เมนูแนะนำ</h1>
             </div>
             <p className="nameTitle">Bar & Restaurant</p>
             <style jsx>{`

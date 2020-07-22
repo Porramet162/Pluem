@@ -1,0 +1,83 @@
+[debug] [2020-07-22T08:20:30.189Z] ----------------------------------------------------------------------
+[debug] [2020-07-22T08:20:30.192Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JaRaRap\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-07-22T08:20:30.193Z] CLI Version:   8.6.0
+[debug] [2020-07-22T08:20:30.193Z] Platform:      win32
+[debug] [2020-07-22T08:20:30.193Z] Node Version:  v12.18.0
+[debug] [2020-07-22T08:20:30.194Z] Time:          Wed Jul 22 2020 15:20:30 GMT+0700 (GMT+07:00)
+[debug] [2020-07-22T08:20:30.194Z] ----------------------------------------------------------------------
+[debug] [2020-07-22T08:20:30.194Z] 
+[debug] [2020-07-22T08:20:30.203Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-22T08:20:30.204Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\JaRaRap\Desktop\Web
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using jararap03. 
+[debug] [2020-07-22T08:20:40.942Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/jararap03  
+ 
+[debug] [2020-07-22T08:20:41.505Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:20:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Firestore Setup
+[debug] [2020-07-22T08:20:41.513Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/jararap03/services/firestore.googleapis.com  
+ 
+[debug] [2020-07-22T08:20:43.368Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:20:43 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-22T08:20:43.371Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/jararap03  
+ 
+[debug] [2020-07-22T08:20:44.541Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:20:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-22T08:20:44.542Z] database_type: CLOUD_FIRESTORE
+[debug] [2020-07-22T08:20:44.544Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-22T08:20:44.545Z] > authorizing via signed-in user
+[debug] [2020-07-22T08:20:44.546Z] [iam] checking project jararap03 for permissions ["firebase.projects.get"]
+[debug] [2020-07-22T08:20:44.549Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jararap03:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-07-22T08:20:45.881Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:20:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1031","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2020-07-22T08:21:23.895Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/jararap03/releases?pageSize=10&pageToken=  
+ 
+[debug] [2020-07-22T08:21:24.542Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:21:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-22T08:21:24.547Z] Found ruleset: projects/jararap03/rulesets/7c48a099-7954-4b85-9195-5c76b5dc9997
+[debug] [2020-07-22T08:21:24.549Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/jararap03/rulesets/7c48a099-7954-4b85-9195-5c76b5dc9997  
+ 
+[debug] [2020-07-22T08:21:26.190Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:21:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2020-07-22T08:22:00.736Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/jararap03/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2020-07-22T08:22:00.736Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/jararap03/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2020-07-22T08:22:01.620Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:22:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-22T08:22:01.779Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Jul 2020 08:22:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-22T08:22:02.082Z] Error: EISDIR: illegal operation on a directory, open 'C:\Users\JaRaRap\Desktop\Web\no'
+    at Object.openSync (fs.js:458:3)
+    at Object.writeFileSync (fs.js:1355:35)
+    at Config.writeProjectFile (C:\Users\JaRaRap\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\JaRaRap\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\firestore\indexes.js:51:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,15 +1,33 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "Web",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porramet162/Pluem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Porramet162/Pluem/issues"
+  },
+  "homepage": "https://github.com/Porramet162/Pluem#readme",
   "dependencies": {
-    "next": "9.4.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-data-table-component": "^6.9.7",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1",
+    "swr": "^0.2.3",
+    "unfetch": "^4.1.0"
   }
 }
